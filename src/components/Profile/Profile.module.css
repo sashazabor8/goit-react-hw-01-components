@@ -1,0 +1,64 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 20px;
+  width: 300px; /* Укажите желаемую ширину карточки */
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.avatar {
+  width: 150px; /* Укажите желаемую ширину аватара */
+  height: 150px; /* Укажите желаемую высоту аватара */
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tag {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.location {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.stats {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.stats li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.quantity {
+  font-weight: bold;
+}
